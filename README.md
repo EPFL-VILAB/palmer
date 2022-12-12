@@ -7,7 +7,7 @@
 
 <b><em><ins>TL;DR:</ins></em></b> We introduce PALMER, a <b>long-horizon planning method</b> that directly operates on high dimensional sensory input <b>observable by an agent on its own</b> (e.g., images from an onboard camera). Our key idea is to <b>retrieve previously observed trajectory segments</b> from a replay buffer and <b>restitch them into approximately optimal paths</b> to connect any given pair of start and goal states. This is achieved by combining <b>classical sampling-based planning algorithms</b> (e.g., PRM, RRT) with <b>learning-based perceptual representations</b> that are informed of actions and their consequences.[^1] 
 
-[^1]: A more elaborate discussion around these motivations can be found in <a href="https://mitpress.mit.edu/9780262161831/vision-science/">[ref1,</a><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sNaYnRcAAAAJ&citation_for_view=sNaYnRcAAAAJ:RGFaLdJalmkC">ref2]</a>.
+[^1]: For a more elaborate discussion around these motivations <a href="https://mitpress.mit.edu/9780262161831/vision-science/">[ref1,</a><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sNaYnRcAAAAJ&citation_for_view=sNaYnRcAAAAJ:RGFaLdJalmkC">ref2]</a>.
 
 ## Summary
 <p> To achieve autonomy in a priori unknown real-world scenarios, agents should be able to: 
@@ -21,7 +21,7 @@
 
 Classical planning algorithms (e.g. PRM, RRT) are proficient at handling long-horizon planning. Deep learning based methods in turn can provide the necessary representations to address the others, by <b>modeling statistical contingencies between sensory observations</b>.[^2]
 
-[^2]: For a conceptual discussion around statistical contingencies, please refer to <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=81NhlCkAAAAJ&citation_for_view=81NhlCkAAAAJ:c1e4I3QdEKYC">[ref,</a><a href="https://en.wikipedia.org/wiki/Human_contingency_learning">wikipedia] </a>.
+[^2]: For a conceptual discussion around statistical contingencies <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=81NhlCkAAAAJ&citation_for_view=81NhlCkAAAAJ:c1e4I3QdEKYC">[ref,</a><a href="https://en.wikipedia.org/wiki/Human_contingency_learning">wikipedia] </a>.
 
 
 <p>
