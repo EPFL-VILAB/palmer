@@ -1,0 +1,12 @@
+gym==0.19.0
+h5py==3.1.0
+matplotlib==3.3.4
+networkx==2.5.1
+numpy==1.19.5
+opencv-python==4.5.4.58
+Pillow==8.4.0
+scipy==1.5.4
+torch==1.10.0
+tqdm==4.62.3
+trimesh==3.9.34
+wandb==0.12.6
